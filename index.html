@@ -62,6 +62,8 @@ header a {
               .team {
             display: flex;
             align-items: center; /* Ustawienie pionowego wyrównania */
+            justify-content: space-between;
+            gap: 20px;
         }
 
        /* .info {
@@ -150,7 +152,16 @@ header a {
             position:right;
         }
 
+        .info {
+          flex: 1; /* Tekst zajmuje większość miejsca */
+        }
 
+      
+        .image img {
+          height: 120px; /* dostosuj w zależności od potrzeb */
+          object-fit: contain;
+          border-radius: 10px; /* opcjonalnie, dla stylu */
+        }
 
         
     </style>
@@ -180,31 +191,32 @@ header a {
         <tr>
             <td>
                 
-              
-              <div class="info">
-                        <h3>"Nazwa drużyny"</h3>
-                        <ul>
-                            <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
-                            <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
-                            <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
-                            <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
-                            <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
-                        </ul>
-                            <h4>Trener</h4>
-                        <ul>
-                            <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players/" target="_blank"> Faceit </a></li>
-                        </ul>
-                          <h3>Rezerwa</h3> (jeśli jest)
-                        <ul>
-                            <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
-                        </ul>
-                        
-                    </div>
+              <div class="team">
+                <div class="info">
+                          <h3>"Nazwa drużyny"</h3>
+                          <ul>
+                              <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
+                              <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
+                              <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
+                              <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
+                              <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
+                          </ul>
+                              <h4>Trener</h4>
+                          <ul>
+                              <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players/" target="_blank"> Faceit </a></li>
+                          </ul>
+                            <h3>Rezerwa</h3> (jeśli jest)
+                          <ul>
+                              <li> | <a href="https://steamcommunity.com/" target="_blank"> Steam</a> | <a href="https://www.faceit.com/pl/players" target="_blank"> Faceit</a></li>
+                          </ul>
+                          
+                  </div>
                     <div class="image">
-                       <a href="LINKteamu" target="_blank">
-                            <img class="proftb" src="fpc.png" alt="nazwa drużyny">
-                        </a>
+                         <a href="LINKteamu" target="_blank">
+                              <img class="proftb" src="fpc.png" alt="nazwa drużyny">
+                          </a>
                     </div>
+              </div>
 
 
 
